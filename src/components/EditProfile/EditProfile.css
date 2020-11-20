@@ -1,0 +1,32 @@
+.editProfile {
+  flex: 1;
+  padding: 10px;
+}
+
+.editProfile__container {
+  padding: 15px;
+  flex: 1;
+  background-color: var(--white-color);
+  box-shadow: -2px 4px 10px -6px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+}
+
+.editProfile__text {
+  display: flex;
+  justify-content: flex-start;
+  color: gray;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 15px 0;
+}
+
+.editProfile__icon {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  color: gray;
+}
+
+.editProfile__icon > .MuiSvgIcon-root {
+  font-size: large !important;
+}

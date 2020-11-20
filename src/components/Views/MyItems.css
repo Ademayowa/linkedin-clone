@@ -1,0 +1,26 @@
+.items {
+  display: flex;
+  background-color: #dce6f1;
+  margin-left: 40px;
+  padding: 20px;
+}
+
+.items__icon {
+  display: flex;
+}
+
+.items__icon > .MuiSvgIcon-root {
+  color: gray !important;
+}
+
+.items__text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.items__text > h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}

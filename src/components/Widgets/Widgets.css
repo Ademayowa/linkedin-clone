@@ -1,0 +1,5 @@
+.widgets {
+  flex: 0.3;
+  flex-wrap: wrap;
+  padding: 20px;
+}

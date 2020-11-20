@@ -1,0 +1,19 @@
+body {
+  font-family: 'Quicksand', sans-serif !important;
+}
+
+:root {
+  --yellow-color: rgb(240, 230, 140);
+  --white-color: #fff;
+  --primary-color: #004182;
+  --sky-blue-color: #eef3f8;
+}
+
+* {
+  margin: 0;
+}
+
+.app__body {
+  display: flex;
+  background-color: #f3f2ef;
+}

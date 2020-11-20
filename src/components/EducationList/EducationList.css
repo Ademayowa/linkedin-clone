@@ -1,0 +1,13 @@
+.educationList {
+  padding: 15px;
+  margin-left: 40px;
+  margin-top: 20px;
+  background-color: var(--white-color);
+  border-radius: 10px;
+  box-shadow: -2px 4px 10px -6px rgba(0, 0, 0, 0.7);
+}
+
+.educationList > hr {
+  margin: 0 -15px 0 80px;
+  background-color: #eff2f5;
+}

@@ -1,0 +1,18 @@
+.dreamJob {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  padding: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: var(--white-color);
+  box-shadow: -2px 4px 10px -6px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.dreamJob__wrapper > img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}

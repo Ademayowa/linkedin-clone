@@ -1,0 +1,50 @@
+.experience {
+  display: flex;
+  padding: 20px;
+  background-color: var(--white-color);
+}
+
+.experience__image > img {
+  height: 40px;
+  object-fit: contain;
+  margin-top: 30px;
+}
+
+.experience__info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: -15px;
+}
+
+.experience__info > h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.experience__info > h4 {
+  font-size: 18px;
+}
+
+.experience__info > p {
+  color: gray;
+}
+
+.experience__infoIcon {
+  color: var(--primary-color);
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 40px;
+}
+
+@media (max-width: 640px) {
+  .experience__info > h3 {
+    font-size: 18px;
+    font-weight: normal;
+  }
+  .experience__info > h4 {
+    font-size: 16px;
+  }
+}

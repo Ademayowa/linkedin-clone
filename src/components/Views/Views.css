@@ -1,0 +1,43 @@
+.views {
+  display: flex;
+  background-color: #dce6f1;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  margin-left: 40px;
+}
+
+.views__wrapper {
+  flex: 1;
+}
+
+.views__heading > h2 {
+  font-size: 22px;
+}
+
+.views__searchApperances {
+  display: flex;
+  flex: 1;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px 30px;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 7px -7px;
+}
+
+.views__searchApperancesInfo1,
+.views__searchApperancesInfo2 {
+  font-size: 16px !important;
+  flex: 1;
+  border-right: 1px solid lightgray;
+  margin-right: 10px;
+}
+
+.views__searchApperances h4 {
+  font-size: 28px;
+  color: #1e73c7;
+}
+
+.views__division2 {
+  display: flex;
+}

@@ -1,0 +1,28 @@
+.headerOption {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 5px 40px;
+  cursor: pointer;
+}
+
+.headerOption > .MuiSvgIcon-root {
+  color: gray;
+  margin-top: -5px;
+}
+
+.headerOption > h2 {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  color: gray;
+  font-size: 13px;
+}
+
+@media (max-width: 1130px) {
+  .headerOption > h2 {
+    position: absolute;
+    bottom: 5px;
+  }
+}

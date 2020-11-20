@@ -1,0 +1,45 @@
+.viewed {
+  display: flex;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: -2px 4px 10px -6px rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.viewed__photo {
+  font-size: 80px !important;
+  width: 80px !important;
+  height: 80px !important;
+  object-fit: contain;
+}
+
+.viewed__container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.viewed__info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.viewed__connect {
+  display: flex;
+  justify-content: center;
+}
+
+.viewed__connect > .MuiSvgIcon-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px !important;
+  color: gray;
+}
