@@ -4,16 +4,19 @@ import { Avatar, Button, IconButton } from '@material-ui/core';
 import './Profile.css';
 
 const Profile = () => {
+  const photoUrl =
+    'https://images.unsplash.com/photo-1581382575275-97901c2635b7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8bWFufGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60';
+
+  const backgroundUrl =
+    'https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80';
+
   return (
     <div className='profile'>
       <div className='profile__info'>
         <div className='profile__top'>
-          <img
-            src='https://media-exp1.licdn.com/dms/image/C5616AQH8Wi_jh8DDrA/profile-displaybackgroundimage-shrink_200_800/0?e=1607558400&v=beta&t=CkCeOR7B3qphXAwsbLaE6fiz6rt6QIOKkRFzuGgSo78'
-            alt=''
-          />
+          <img className='profile__image' src={backgroundUrl} alt='' />
           <div className='profile__avatar'>
-            <Avatar className='profile__photo' />
+            <Avatar src={photoUrl} className='profile__photo' />
           </div>
         </div>
 

@@ -18,6 +18,13 @@
   border-top-right-radius: 10px;
 }
 
+.profile__image {
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover !important;
+}
+
 .profile__photo {
   width: 150px !important;
   height: 150px !important;
