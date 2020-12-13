@@ -3,3 +3,9 @@
   padding: 20px;
   margin-top: 26px;
 }
+
+@media (max-width: 992px) {
+  .feed {
+    flex: 1;
+  }
+}

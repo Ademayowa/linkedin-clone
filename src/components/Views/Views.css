@@ -41,3 +41,18 @@
 .views__division2 {
   display: flex;
 }
+
+@media (max-width: 660px) {
+  .views__searchApperances {
+    display: flex;
+    flex-direction: column;
+    border-right: none !important;
+  }
+
+  .views__searchApperancesInfo1,
+  .views__searchApperancesInfo2 {
+    border-right: none;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+  }
+}
