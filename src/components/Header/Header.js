@@ -1,8 +1,6 @@
 import React from 'react';
 import { SearchOutlined } from '@material-ui/icons';
-import NotificationsIcon from '@material-ui/icons/Notifications';
 import HomeIcon from '@material-ui/icons/Home';
-import PeopleOutlineIcon from '@material-ui/icons/PeopleOutline';
 import BusinessCenterIcon from '@material-ui/icons/BusinessCenter';
 import SmsIcon from '@material-ui/icons/Sms';
 import HeaderOption from '../HeaderOption/HeaderOption';
@@ -13,7 +11,7 @@ const Header = () => {
   return (
     <div className='header'>
       <div className='header__left'>
-        <img src={Logo} alt='logo' />
+        <img src={Logo} alt='logo' className='header__logo' />
         <div className='header__input'>
           <SearchOutlined />
           <input type='text' placeholder='Search' />
@@ -22,10 +20,8 @@ const Header = () => {
 
       <div className='header__center'>
         <HeaderOption Icon={HomeIcon} text='Home' />
-        <HeaderOption Icon={PeopleOutlineIcon} text='My Network' />
         <HeaderOption Icon={BusinessCenterIcon} text='Jobs' />
         <HeaderOption Icon={SmsIcon} text='Messaging' />
-        <HeaderOption Icon={NotificationsIcon} text='Notifications' />
       </div>
     </div>
   );

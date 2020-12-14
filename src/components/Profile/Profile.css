@@ -117,3 +117,13 @@
     font-size: 18px;
   }
 }
+
+@media (max-width: 425px) {
+  .profile__image {
+    max-height: 150px !important;
+  }
+
+  .profile__btnAdd {
+    display: none !important;
+  }
+}
